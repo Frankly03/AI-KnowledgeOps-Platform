@@ -1,5 +1,10 @@
 # AI KnowledgeOps Platform - A RAG-based System
 
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker)](https://www.docker.com/)
+[![LangChain](https://img.shields.io/badge/LangChain-Integration-yellow)](https://www.langchain.com/)
+
+
 **Enterprise-Grade Document Intelligence (RAG + Agents + MLOps)**
 
 Turn scattered knowledge (PDFs, docs, chats, web pages) into an intelligent, queryable knowledge base with retrieval-augmented generation (RAG), agent workflows, and production-ready deployment.
@@ -11,8 +16,13 @@ Most organizations lose time and money searching for information buried in docum
 The AI KnowledgeOps Platform reduces time-to-answer and knowledge loss by converting raw content into an actionable knowledge system.
 
 ---
+## 🔮 Roadmap
+- [ ] Phase 1: Core RAG API (current)
+- [ ] Phase 2: Platform & Ingestors
+- [ ] Phase 3: Intelligence Layer
+- [ ] Phase 4: MLOps Polish
 
-## 🚀 Phase 1: The Core RAG API (MVP)
+##  Phase 1: The Core RAG API (MVP)
 
 This initial phase focuses on creating a rock-solid, containerized RAG pipeline that can be built upon.
 
@@ -22,6 +32,11 @@ This initial phase focuses on creating a rock-solid, containerized RAG pipeline 
 -   **Vector Storage:** Uses ChromaDB running in a separate container for persistence.
 -   **Query API:** Takes a user question and returns a well-formed answer with citations from the source documents.
 -   **Containerized:** The entire application is orchestrated with Docker Compose for easy setup and deployment.
+
+---
+
+## 📌 Current Status
+Phase 1 development in progress. Core API skeleton implemented.
 
 ---
 
@@ -160,3 +175,9 @@ You can access the interactive API documentation (provided by Swagger UI) at `ht
         ├── __init__.py
         └── config.py
 ```
+
+## 📜 License
+MIT License
+
+## 🤝 Contributing
+Open to suggestions! Feel free to fork and raise issues.
